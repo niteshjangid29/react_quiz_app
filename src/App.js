@@ -29,7 +29,7 @@ function App() {
   return (
     <BrowserRouter>
       <Navbar />
-      <div className="app" style={{ backgroundImage: 'url("/ques1.png")' }}>
+      <div className="app" style={{ backgroundImage: 'url("/bg.png")' }}>
 
         <Routes>
           <Route exact path="/" element={<Home name={name} setName={setName} fetchQuestions={fetchQuestions} />} />
