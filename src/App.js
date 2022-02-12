@@ -10,6 +10,7 @@ import axios from 'axios';
 import Dashboard from './Pages/Dashboard/Dashboard';
 import Register from './Pages/Register/Register';
 import Profile from './Pages/Profile/Profile';
+import Blog from './Pages/Blog/Blog';
 
 
 //*****************************UNDRAW.CO */
@@ -34,6 +35,7 @@ function App() {
           <Route exact path="/" element={<Home name={name} setName={setName} fetchQuestions={fetchQuestions} />} />
           <Route exact path="/quiz" element={<Quiz name={name} questions={questions} score={score} setScore={setScore} setQuestions={setQuestions} />} />
           <Route exact path="/result" element={<Result name={name} score={score} />} />
+          <Route exact path="/blog" element={<Blog />} />
           <Route exact path="/dashboard" element={<Dashboard score={score} />} />
           <Route exact path="/register" element={<Register />} />
           <Route exact path="/profile" element={<Profile />} />
