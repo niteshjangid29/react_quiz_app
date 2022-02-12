@@ -1,0 +1,80 @@
+.resultCard{
+    display: flex;
+    align-items: center;
+    background: rgb(240, 240, 238);
+    border: 4px solid #2074d4;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 25px 18px;
+    justify-content: space-between;
+}
+
+.resultCategory{
+    display: flex;
+    align-items: center;
+    font-size: 24px;
+    font-weight: 500;
+}
+.resultCategory span{
+    margin-right: 5px;
+}
+.resultCategory span:last-child{
+    margin-right: 5px;
+    font-size: 15px;
+    color: #fff;
+    background: #2074d4;
+    padding: 1px 7px 2px;
+    border-radius: 5px;
+}
+.resultCategory h3{
+    font-weight: 500;
+    margin-right: 5px;
+}
+
+.date{
+    font-size: 20px;
+    font-weight: 500;
+}
+.date span{
+    margin: 0 7px;
+}
+
+.resultScore{
+    font-size: 20px;
+    border: 3px solid #fff;
+    outline: 2px solid black;
+    box-shadow: 4px 4px 0 black;
+    background: #2074d4;
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.resultScore h3{
+    font-weight: 500;
+}
+
+@media only screen and (max-width: 900px){
+    .resultCard{
+        display: block;
+        text-align: center;
+        padding: 20px 5px;
+        margin: 25px 3px;
+    }
+    .resultCategory{
+        font-size: 19px;
+        justify-content: center;
+    }
+    .date{
+        font-size: 18px;
+        margin: 15px 0;
+    }
+    .resultScore{
+        font-size: 18px;
+        width: fit-content;
+        margin: auto;
+    }
+    .resultCategory span:last-child{
+        margin-right: 0px;
+        padding: 1px 5px 2px;
+    }
+}

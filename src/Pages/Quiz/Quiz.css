@@ -1,0 +1,51 @@
+.quiz {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: "Poppins", sans-serif;
+}
+
+.subtitle {
+    font-size: 25px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px 10px;
+    text-align: center;
+    margin: 10px auto;
+    margin-bottom: 25px;
+    color: white;
+    background: #2074d4;
+    font-weight: 500;
+}
+
+.quizInfo {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    text-transform: uppercase;
+    margin: 10px;
+}
+
+.score{
+    margin-right: 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px 10px;
+    width: 180px;
+    text-align: center;
+    color: white;
+    background: #2074d4;
+}
+
+.category{
+    margin-left: 15px;
+    font-size: 20px;
+    border: 2px solid black;
+    box-shadow: 4px 4px 2px black;
+    padding: 5px 10px;
+    width: 180px;
+    text-align: center;
+    color: white;
+    background: #2074d4;
+}
